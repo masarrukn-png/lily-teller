@@ -27,3 +27,5 @@ if name:
         if st.button("🔮 Consult the spirits!"):
             fortune = random.choice(fortunes)
             st.success(f"🔮 The spirits say: **{fortune}**")
+
+st.caption("✨ Experimental work by Valen from Repton ✨")
